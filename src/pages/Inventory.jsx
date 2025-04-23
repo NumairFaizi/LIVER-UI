@@ -66,7 +66,7 @@ const Inventory = () => {
           </thead>
           <tbody>
             {products.map((product, index) => (
-              <tr key={index} className="hover:bg-gray-700 transition-all duration-200">
+              <tr key={index} className="hover:bg-blue-400 transition-all duration-200">
                 <td className="py-3 px-2 sm:px-4">{product.name}</td>
                 <td className="py-3 px-2 sm:px-4">{product.brand}</td>
                 <td className="py-3 px-2 sm:px-4">{product.qty}</td>

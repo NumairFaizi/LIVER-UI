@@ -55,10 +55,10 @@ const DisplayBill = () => {
 
         const element = elementRef.current
         console.log('element', invoiceId)
-        // window.html2pdf()
-        //     .set({ filename: 'temp' })
-        //     .from(element)
-        //     .save()
+         window.html2pdf()
+             .set({ filename: 'temp' })
+             .from(element)
+             .save()
 
     }
 
